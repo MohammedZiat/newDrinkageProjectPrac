@@ -1,0 +1,53 @@
+
+    <!-------------------------- Banner Section Start --------------->
+
+    <section class="banner">
+        <!-- <div class="banner"> -->
+        <style>
+            .background_clip {
+                position: absolute;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+        <video autoplay loop muted plays-inline playsinline preload="none" class="background_clip">
+            <source src="videos/banner-video.mp4" type="video/mp4">
+        </video>
+
+        <div class="container">
+            <div class="row">
+                <div class="col_5 col">
+                    <div class="banner_content">
+                        <h2 class="title">We’re here to help you feel balanced strong focused</h2>
+                        <p class="des_type1">AG1 is a daily Foundational Nutrition supplement that supports whole body
+                            health.*</p>
+                        <a class="btn_style1" href="">Start Your AG1 Today <i
+                                class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+            
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </section>
+
+    <!-------------------------- Banner Section End --------------->
+
+
+{% schema %}
+{
+ "name":"Video banner",
+ "settings":[],
+ "presets": [
+ {     
+"name":"video banner"
+ }
+]
+}
+
+{% endschema %}
